@@ -1,0 +1,232 @@
+header {
+	top: 0;
+	position: fixed;
+	width: 100% ;
+	margin: 0;
+	padding: 10px 0;
+	background-color: #fff;
+	z-index: 101;
+	box-shadow: 0 0 18px 3px #999 ;
+}
+
+#header__phone {
+	display: inline-block;
+	padding: 0 ;
+	margin: 0;
+	font-size: 28px;
+	line-height: 50px;
+	text-align: right;
+}
+
+#logotype {
+	display: block;
+	height: 50px;
+}
+
+#descriptor {
+	font-size: 19px;
+	font-weight: 700 ;
+	line-height: 50px;
+}
+
+#callback {
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	font-size: 18px;
+	line-height: 42px;
+	text-align: center;
+	position: relative;
+	color: orange;
+	border: 2px solid orange;
+	background: transparent;
+	top: -3px;
+	border-radius: 2px;
+	transition: 650ms ease-in-out;
+}
+
+#callback:hover {
+	color: #fff ;
+	background-color: orange;
+}
+
+#main__screen {
+	margin-top: 70px;
+	height: 600px;
+	background-position: 50% 10% ;
+	background-image: url('https://image.shutterstock.com/z/stock-photo-smiling-parents-with-kids-having-fun-with-laptop-in-cozy-living-room-interior-couple-with-children-1054877090.jpg');
+}
+
+#main__screen  h1 {
+	padding-top: 50px;
+	font-size: 54px;
+	line-height: 60px;
+}
+
+#d__btn__utp {
+	padding-top: 30px;
+}
+
+#bullets {
+	margin-top: -83px;
+}
+
+.bullet {
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%;
+	background-color: orange ;
+	border-radius: 4px;
+}
+
+.bullet__content {
+	width: 100% ;
+	height: 100% ;
+	position: absolute;
+	left: 0 ;
+	top: 0 ;
+}
+
+.bullet__offer {
+	margin: 0 ;
+	padding: 0;
+	padding-top: 6px;
+	color: #fff;
+	font-size: 66px;
+	line-height: 66px;
+}
+
+.sub__offer {
+	font-size: 21px;
+	text-transform: uppercase;
+}
+
+.bullet__description {
+	text-align: center;
+	font-size: 16px;
+	line-height: 17px;
+	font-weight: 700;
+}
+
+#screen2 {
+	height: 650px;
+	background-image: url( 'https://image.shutterstock.com/z/stock-photo-female-realtor-meeting-with-young-couple-in-real-estate-agency-office-discussing-first-property-688428673.jpg' );
+	filter: brightness(.95);
+}
+
+#screen3 {
+	background-position: 50% 10%;
+	height: 650px;
+	background-image: url( 'https://image.shutterstock.com/z/stock-photo-romantic-couple-at-home-attractive-young-woman-and-handsome-man-are-enjoying-spending-time-745090324.jpg' );
+	filter: brightness(.95);
+}
+
+#screen4 {
+	background-position: 50% 30%;
+	height: 650px;
+	background-image: url('https://image.shutterstock.com/z/stock-photo-top-view-of-a-beautiful-couple-relaxing-on-a-white-sofa-and-using-a-digital-tablet-236082187.jpg');
+	filter: brightness(.97);
+}
+
+
+nav {
+	transition: 650ms ease-in-out;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0 ;
+}
+
+nav li {
+	padding: 15px 10px;
+	display: inline-block;
+}
+
+nav a {
+	font-family: 'Alegreya Sans', sans-serif ;
+	text-decoration: none;
+	color: blue;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+
+.prj__headline {
+	font-family: 'PT Serif' , Times New Roman,  serif ;
+	font-size: 18px ;
+	line-height: 22px;
+}
+
+.prj__headline a {
+	text-decoration: none ;
+	color: blue;
+	transition-duration: 450ms;
+}
+
+.prj__headline a:hover {
+	color: orange;
+}
+
+.prj__sub__headline {
+	font-family: 'PT Serif' , Times New Roman,  serif ;
+	font-size: 16px ;
+	line-height: 18px;
+	color: #777;
+	padding-left: 23px;
+}
+
+.check__sprite {
+	font-size: 24px;
+	line-height: 28px;
+	color: green;
+
+}
+
+.recall	{
+	display: block;
+	width: 100%;
+	margin: 0;
+}
+
+.r__text {
+	padding: 7px;
+	height: 324px;
+	overflow-y: scroll;
+	background-color: #f8ecd3;
+}
+
+.o__i__offer {
+	font-family: inherit;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.o__i__sub {
+	font-family: inherit;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.fdp {
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: 700;
+}
+
+#fdp__headline {
+	padding-left: 30px;
+}
+
+#fdp__price {
+	padding-right: 30px;
+}
+
+footer {
+	border-top: 1px solid #d3d3d3;
+}
+
+#what__you__get {
+	font-size: 30px;
+	line-height: 1.1em;
+}

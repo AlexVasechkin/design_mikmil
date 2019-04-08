@@ -1,0 +1,165 @@
+.background {
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-size: cover;
+}
+
+.text-shadow {
+	text-shadow: 0px 5px 10px #000 ;
+}
+
+.shadow {
+	box-shadow: 0 3px 7px 1px #999;
+}
+
+.alpha__black {
+	background: rgba( 0 , 0 , 0 , 0.7) ;
+}
+
+.headline {
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.paragraph {
+	font-family: 'PT Serif', serif;
+}
+
+.handwriting {
+	font-family: 'Caveat', cursive;
+}
+
+.undline {
+	border-bottom: 4px solid orange ;
+}
+
+
+.text-white {
+	color: #fff ;
+}
+
+.text-orange {
+	color: orange;
+}
+
+.bold {
+	font-weight: 700 ;
+}
+
+.ita {
+	font-style: italic;
+}
+
+.pd__top {
+	padding-top: 30px ;
+}
+
+.pd__bot {
+	padding-bottom: 30px;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.link {
+	padding: 5px 7px;
+	background-color: #f3f3f3 ;
+	border-radius: 3px;
+}
+
+.link a {
+	text-decoration: none!important;
+	border-bottom: 1px dotted #0054b9 ;
+	color: #0054b9;
+}
+
+.text-header {
+	font-size: 50px;
+	line-height: 56px;
+	font-weight: 400 ;
+}
+
+.big {
+	text-transform: uppercase;
+}
+
+.sdvig {
+	-webkit-transform: translate3d(20px,20px,20px);
+	-ms-transform: translate3d(20px,20px,20px);
+	transform: translate3d(20px,20px,20px);
+}
+
+.border {
+	padding: 20px 0 ;
+	border: 3px dotted #eee;
+}
+
+a {
+	text-decoration: none ;
+	color: blue;
+	transition-duration: 450ms;
+}
+
+a:hover {
+	color: orange;
+}
+
+.r__p {
+	text-align: justify;
+	text-indent: 1.25em;
+}
+
+.comment__photo img {
+	border: 1px solid #d3d3d3;
+}
+
+.form__frame {
+	display: block;
+	width: 100%;
+	padding: 34px 15px 40px 15px;
+	background: rgba(255, 255, 255, 0.75);
+	border: 1px solid #d3d3d3;
+}
+
+@keyframes rotate {
+  5%, 15%, 25% {
+    transform: rotate(-4deg);
+  }
+  
+  10%, 20% {
+    transform: rotate(4deg);
+  }
+
+  30% , 100% {
+  	transform: rotate(0);
+  }
+}
+
+@keyframes scale {
+	from {
+		transform: scale(1.0);
+	}
+
+	to {
+		transform: scale(1.1);
+	}
+}
+
+.butt {
+	-webkit-animation: rotate 6s infinite ease-out;
+	-o-animation: rotate 6s infinite ease-out;
+	animation: rotate 6s infinite ease-out;
+	animation-fill-mode: backwards;
+	animation-delay: 2s ;
+}
+
+.butt:hover {
+	color: #3F241A;
+	-webkit-animation: scale 380ms 1 ease-out  ;
+	-o-animation: scale 380ms 1 ease-out ;
+	animation: scale 380ms 1 ease-out ;
+	animation-fill-mode: forwards;
+}
+
+

@@ -1,0 +1,20 @@
+.butt {
+	display: inline-block;
+	background-attachment: absolute;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	background: url(../img/btns/button.png) 100% 100% no-repeat;
+    width: 428px;
+    height: 100px;
+    text-align: center;
+    color: #3F241A;
+    font-size: 25px;
+    line-height: 84px;
+    font-weight: 400;
+    text-shadow: 0 1px 0 rgba(255,221,80,.7);
+    text-decoration: none;
+    white-space: nowrap;
+	transition: 280ms ease-out;
+}
+

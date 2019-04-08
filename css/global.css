@@ -1,0 +1,309 @@
+.grey {
+    background: rgb(247, 247, 247);
+}
+
+.comment {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+.price-row {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid RGBA(231,231,231,1.00);
+}
+
+.row-light {
+    opacity: 0.3;
+}
+
+.strong {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.bot-line-1 {
+    border-bottom: 1px solid #a88315;
+}
+
+.white {
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.aquamarine {
+	background: rgba(35, 141, 143, 0.8);
+}
+
+.text-gold {
+	color: #a88315!important;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.otstup {
+    margin: 25px auto;
+    padding: 25px 0;
+}
+
+#hello {
+    min-height: 500px;
+}
+
+.main-nav a{
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.background {
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-size: cover;
+}
+
+.img-container {
+    overflow: hidden; 
+    position: relative;
+}
+
+.img-preview {
+    transition-duration: 450ms;
+    z-index: 1;
+}
+
+.img-container:hover .img-preview {
+    position: relative;
+    transform: scale(1.1);
+}
+
+.get-album-panel, .get-album-icons {
+    transition-duration: 450ms;
+    opacity: 0;
+    z-index: 2;
+}
+
+.get-album-icon {
+    color: #ccc;
+    text-align: center;
+    padding: 14px 0;
+    transition-duration: 450ms;
+}
+
+.get-album-icon:hover {
+    color: #fff;
+    background: #000;
+}
+
+
+
+.img-container:hover .get-album-panel, .img-container:hover .get-album-icons {
+    opacity: 1;
+}
+
+#main-screen {
+	background-image: url('../images/main/first-screen/1.png');
+}
+
+#advantages {
+    overflow: hidden;
+}
+
+#advantages figure {
+	display: block;
+	width: 18%;
+	float: left;
+	margin: 1%;
+}
+
+#advantages img {
+	display: block;
+	margin: 0 auto;
+	height: 90px;
+}
+
+#advantages figure:first {
+	margin-left: 0!important;
+}
+
+#advantages figure:last {
+	margin-right: 0!important;
+}
+
+#advantages figcaption {
+	margin-top: 1em;
+}
+
+ul.switcher {
+    text-align: center;
+}
+
+ul.switcher li{
+    display: inline-block;
+    margin: 0 1.2em;
+    padding: 0;
+}
+
+.switch-container .switch-elem {
+    display: none;
+}
+
+.switch-container .active-elem {
+    display: block!important;
+}
+
+.switcher .switcher-elem{
+	cursor: pointer;
+}
+
+.switcher .active {
+	border-bottom: 3px dotted;	
+}
+
+.prices {
+	border: 2px solid rgba(70,178,180,1);
+}
+
+#prices {
+    background-image: url('../images/main/prices/5.png');
+}
+
+#price1 h4{
+	text-indent: 1.25em;
+}
+
+#price2 {
+	background: url('../images/main/prices/5.png') 100% 100% no-repeat;
+	background-size: cover;
+}
+
+#zamer {
+	padding-top: 30px;
+	background-image: url('../images/main/questions/1.png');
+}
+
+#zamer {
+	font-size: 48px;
+	text-transform: uppercase;
+}
+
+#zamer-forma {
+	background-image: url('../images/main/questions/3.png');
+	padding-top: 25px;
+}
+
+#zamer-forma p {
+	margin: 20px auto 10px;
+}
+
+#man {
+	display: block;
+	margin: 20px auto -20px;
+}
+
+#ruletka {
+	display: block;
+	width: 100%;
+	margin: 20px auto;
+}
+
+.dark-background {
+    background-color: #fafafa;
+}
+
+#to-top {
+    cursor: pointer;
+}
+
+.B_crumbBox {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.video {
+    position: relative;
+}
+
+.video::before {
+    position: absolute;
+    content: url('../images/icons/icon-play.png');
+    left: 50%;
+    top: 50%;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+
+.v-align-mid {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+
+.v-align-mid>div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.border-black {
+    border: 2px solid #000;
+}
+
+.shtora-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.shtora {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 100%;
+    transition-duration: 400ms;
+}
+
+.shtora-container:hover .shtora{
+    bottom: 0;
+}
+
+.bs-callout {
+    margin-left: 2em;
+    border-left: 4px solid;
+    padding: 10px;
+}
+
+.bs-callout-info {
+    border-left-color: rgb(35, 141, 143);  
+    background-color: #c8e3e2;
+}
+
+#content p {
+    text-indent: 1.25em;
+}
+
+.bounce__container:hover .bounce  {
+    display: block;
+    animation: bounce 0.9s infinite;
+}
+
+.bounce {
+    display: none;
+    transition: ease-in;
+}
+
+.responsive__img {
+    width: 100% ;
+    padding-top: 75%;
+    position: relative;
+}
+
+.responsive__img>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
